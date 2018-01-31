@@ -5,7 +5,7 @@ using namespace std;
 void quicksort(int arr[],int L,int R){
     int i = L;
     int j = R;
-    int pivot = arr[(i+j)/2];
+    int pivot = arr[(L+R)/2];
     
     while(i<=j){
         while(arr[i]<pivot){
